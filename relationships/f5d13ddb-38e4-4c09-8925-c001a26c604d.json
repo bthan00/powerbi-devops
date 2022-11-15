@@ -1,8 +1,0 @@
-{
-  "name": "f5d13ddb-38e4-4c09-8925-c001a26c604d",
-  "fromTable": "Promotion",
-  "fromColumn": "StartDate",
-  "toTable": "LocalDateTable_6c9c2fcb-d3ba-476c-8f33-99115fa863a1",
-  "toColumn": "Date",
-  "joinOnDateBehavior": "datePartOnly"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "bd936648-662f-4438-8a8c-e746b530d8ea",
-  "fromTable": "Sales",
-  "fromColumn": "channelKey",
-  "toTable": "Channel",
-  "toColumn": "Channel",
-  "crossFilteringBehavior": "bothDirections"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "51df2141-24dd-4ef8-8dd1-bf65764161e7",
-  "fromTable": "Sales",
-  "fromColumn": "ProductKey",
-  "toTable": "Product",
-  "toColumn": "ProductKey",
-  "crossFilteringBehavior": "bothDirections"
-}

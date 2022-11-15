@@ -1,8 +1,0 @@
-{
-  "name": "7b03cb88-7ab8-46af-814c-22aa8eceecf5",
-  "fromTable": "ProductSubcategory",
-  "fromColumn": "ProductCategoryKey",
-  "toTable": "ProductCategory",
-  "toColumn": "ProductCategoryKey",
-  "crossFilteringBehavior": "bothDirections"
-}
