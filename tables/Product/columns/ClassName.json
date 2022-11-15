@@ -1,0 +1,13 @@
+{
+  "name": "ClassName",
+  "dataType": "string",
+  "sourceColumn": "ClassName",
+  "lineageTag": "6ccb2bca-d913-46b1-a97d-1b9fbc61b0aa",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

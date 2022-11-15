@@ -1,0 +1,15 @@
+{
+  "name": "Sales-d01eb137-1ce7-4ee7-9755-443b893924c4",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Access.Database(File.Contents(\"C:\\Users\\owend\\Documents\\ContosoSalesV31_64bit.accdb\")),",
+      "    _FactSales = Source{[Schema=\"\",Item=\"FactSales\"]}[Data],",
+      "    #\"Removed Columns\" = Table.RemoveColumns(_FactSales,{\"CurrencyKey\", \"ETLLoadID\", \"LoadDate\", \"UpdateDate\"})",
+      "in",
+      "    #\"Removed Columns\""
+    ]
+  }
+}

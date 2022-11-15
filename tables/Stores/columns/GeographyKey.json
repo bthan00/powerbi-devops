@@ -1,0 +1,18 @@
+{
+  "name": "GeographyKey",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "GeographyKey",
+  "lineageTag": "1165a689-e214-434e-9911-bad7a99ab482",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

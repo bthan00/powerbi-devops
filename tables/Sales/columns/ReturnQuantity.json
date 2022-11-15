@@ -1,0 +1,14 @@
+{
+  "name": "ReturnQuantity",
+  "dataType": "int64",
+  "sourceColumn": "ReturnQuantity",
+  "formatString": "0",
+  "lineageTag": "ec6991f7-a8d5-423f-b193-ef10430e64fc",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

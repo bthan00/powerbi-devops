@@ -1,0 +1,13 @@
+{
+  "name": "RegionCountryName",
+  "dataType": "string",
+  "sourceColumn": "RegionCountryName",
+  "lineageTag": "03c78b72-579a-43ed-975d-73f6cd30fe50",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

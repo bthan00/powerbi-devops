@@ -1,0 +1,13 @@
+{
+  "name": "ProductSubcategory",
+  "dataType": "string",
+  "sourceColumn": "ProductSubcategory",
+  "lineageTag": "6fe15284-ab56-4854-be01-0a11503b2f2e",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

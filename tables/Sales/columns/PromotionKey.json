@@ -1,0 +1,15 @@
+{
+  "name": "PromotionKey",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "PromotionKey",
+  "formatString": "0",
+  "lineageTag": "c0486c0b-3d04-4af8-9374-c9d2095c59bb",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

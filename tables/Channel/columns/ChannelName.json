@@ -1,0 +1,13 @@
+{
+  "name": "ChannelName",
+  "dataType": "string",
+  "sourceColumn": "ChannelName",
+  "lineageTag": "e7b233b9-2b71-45b0-8d17-8e29c2856804",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "PromotionLabel",
+  "dataType": "string",
+  "sourceColumn": "PromotionLabel",
+  "lineageTag": "1626e400-624e-4865-9392-c31e700fe679",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bd4c3275-3b43-4e3e-a58c-45aff42a0511",
+  "fromTable": "Sales",
+  "fromColumn": "StoreKey",
+  "toTable": "Stores",
+  "toColumn": "StoreKey",
+  "crossFilteringBehavior": "bothDirections"
+}

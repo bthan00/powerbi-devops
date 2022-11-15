@@ -1,0 +1,25 @@
+{
+  "name": "StartDate",
+  "dataType": "dateTime",
+  "sourceColumn": "StartDate",
+  "formatString": "General Date",
+  "lineageTag": "df46dc77-d78f-47ee-94b8-a56744228657",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "f5d13ddb-38e4-4c09-8925-c001a26c604d",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_6c9c2fcb-d3ba-476c-8f33-99115fa863a1",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

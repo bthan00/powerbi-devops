@@ -1,0 +1,15 @@
+{
+  "name": "Channel",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "Channel",
+  "formatString": "0",
+  "lineageTag": "9f5a6c67-00f3-4384-99c4-94559f647e60",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "StoreType",
+  "dataType": "string",
+  "sourceColumn": "StoreType",
+  "lineageTag": "88a0808e-6cd4-48c7-ad3e-b74d40132a43",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

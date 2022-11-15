@@ -1,0 +1,8 @@
+{
+  "name": "4f81913b-9717-434b-944d-0fe871897062",
+  "fromTable": "Sales",
+  "fromColumn": "PromotionKey",
+  "toTable": "Promotion",
+  "toColumn": "PromotionKey",
+  "crossFilteringBehavior": "bothDirections"
+}

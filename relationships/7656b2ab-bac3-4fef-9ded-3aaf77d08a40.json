@@ -1,0 +1,8 @@
+{
+  "name": "7656b2ab-bac3-4fef-9ded-3aaf77d08a40",
+  "fromTable": "Product",
+  "fromColumn": "ProductSubcategoryKey",
+  "toTable": "ProductSubcategory",
+  "toColumn": "ProductSubcategoryKey",
+  "crossFilteringBehavior": "bothDirections"
+}

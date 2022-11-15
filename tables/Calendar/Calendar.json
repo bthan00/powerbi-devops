@@ -1,0 +1,14 @@
+{
+  "name": "Calendar",
+  "lineageTag": "cc2b482a-1fd1-49c3-8660-952cc135fd64",
+  "annotations": [
+    {
+      "name": "ColumnsMetadata",
+      "value": "{\"Columns\":[{\"Name\":\"DateKey\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimDate.{DateKey,0}\"},{\"Name\":\"DateInt\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimDate.{DateInt,1}\"},{\"Name\":\"Year\",\"Id\":\"Section1/DimDate/Changed Type.{YearKey,2}\"},{\"Name\":\"QuarterOfYear\",\"Id\":\"Section1/DimDate/Changed Type.{QuarterOfYear,3}\"},{\"Name\":\"MonthOfYear\",\"Id\":\"Section1/DimDate/Changed Type.{MonthOfYear,4}\"},{\"Name\":\"DayOfMonth\",\"Id\":\"Section1/DimDate/Changed Type.{DayOfMonth,5}\"},{\"Name\":\"MonthName\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimDate.{MonthName,6}\"},{\"Name\":\"DayOfWeekName\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimDate.{DayOfWeekName,9}\"}]}"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

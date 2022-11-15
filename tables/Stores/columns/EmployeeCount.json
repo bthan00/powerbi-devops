@@ -1,0 +1,17 @@
+{
+  "name": "EmployeeCount",
+  "dataType": "double",
+  "sourceColumn": "EmployeeCount",
+  "lineageTag": "04ad622f-ab9c-4128-8f3a-ae9c570ebc56",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

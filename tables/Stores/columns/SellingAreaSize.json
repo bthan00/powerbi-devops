@@ -1,0 +1,17 @@
+{
+  "name": "SellingAreaSize",
+  "dataType": "double",
+  "sourceColumn": "SellingAreaSize",
+  "lineageTag": "5ffd2844-436d-4559-9dd2-fa0cf14f15c4",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

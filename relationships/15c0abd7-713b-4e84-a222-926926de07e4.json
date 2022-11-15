@@ -1,0 +1,7 @@
+{
+  "name": "15c0abd7-713b-4e84-a222-926926de07e4",
+  "fromTable": "Sales",
+  "fromColumn": "DateKey",
+  "toTable": "Calendar",
+  "toColumn": "DateKey"
+}

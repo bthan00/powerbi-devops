@@ -1,0 +1,13 @@
+{
+  "name": "StoreName",
+  "dataType": "string",
+  "sourceColumn": "StoreName",
+  "lineageTag": "8a556ca0-2b22-4823-96cd-10741406f443",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

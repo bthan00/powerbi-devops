@@ -1,0 +1,15 @@
+{
+  "name": "SalesKey",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "SalesKey",
+  "formatString": "0",
+  "lineageTag": "59bbaa32-4bc2-4cc1-86c9-8cee21b72c29",
+  "summarizeBy": "count",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

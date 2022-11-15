@@ -1,0 +1,8 @@
+{
+  "name": "d219834a-6b75-4cb0-9090-71ed9a06b8f1",
+  "fromTable": "Stores",
+  "fromColumn": "GeographyKey",
+  "toTable": "Geography",
+  "toColumn": "GeographyKey",
+  "crossFilteringBehavior": "bothDirections"
+}

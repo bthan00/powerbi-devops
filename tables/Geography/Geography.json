@@ -1,0 +1,14 @@
+{
+  "name": "Geography",
+  "lineageTag": "c2e026c2-fa7d-49be-a5d6-dba1b3a58fe2",
+  "annotations": [
+    {
+      "name": "ColumnsMetadata",
+      "value": "{\"Columns\":[{\"Name\":\"GeographyKey\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimGeography.{GeographyKey,0}\"},{\"Name\":\"GeographyType\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimGeography.{GeographyType,1}\"},{\"Name\":\"ContinentName\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimGeography.{ContinentName,2}\"},{\"Name\":\"RegionCountryName\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimGeography.{RegionCountryName,3}\"}]}"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

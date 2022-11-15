@@ -1,0 +1,13 @@
+{
+  "name": "PromotionName",
+  "dataType": "string",
+  "sourceColumn": "PromotionName",
+  "lineageTag": "f21eed13-a98b-4aaa-bb2e-f8d504ece005",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

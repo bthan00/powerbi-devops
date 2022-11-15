@@ -1,0 +1,13 @@
+{
+  "name": "BrandName",
+  "dataType": "string",
+  "sourceColumn": "BrandName",
+  "lineageTag": "b6983b10-4d13-42af-9c22-393b860c78ee",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}
