@@ -1,0 +1,17 @@
+{
+  "name": "StoreKey",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "StoreKey",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

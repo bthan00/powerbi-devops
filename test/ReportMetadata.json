@@ -1,0 +1,43 @@
+{
+  "Version": 5,
+  "AutoCreatedRelationships": [
+    {
+      "FromTable": "ProductSubcategory",
+      "FromColumn": "ProductCategoryKey",
+      "ToTable": "ProductCategory",
+      "ToColumn": "ProductCategoryKey"
+    },
+    {
+      "FromTable": "Stores",
+      "FromColumn": "GeographyKey",
+      "ToTable": "Geography",
+      "ToColumn": "GeographyKey"
+    },
+    {
+      "FromTable": "Sales",
+      "FromColumn": "channelKey",
+      "ToTable": "Channel",
+      "ToColumn": "Channel"
+    },
+    {
+      "FromTable": "Sales",
+      "FromColumn": "PromotionKey",
+      "ToTable": "Promotion",
+      "ToColumn": "PromotionKey"
+    },
+    {
+      "FromTable": "Product",
+      "FromColumn": "ProductSubcategoryKey",
+      "ToTable": "ProductSubcategory",
+      "ToColumn": "ProductSubcategoryKey"
+    },
+    {
+      "FromTable": "Sales",
+      "FromColumn": "ProductKey",
+      "ToTable": "Product",
+      "ToColumn": "ProductKey"
+    }
+  ],
+  "CreatedFrom": "Cloud",
+  "CreatedFromRelease": "2022.08"
+}

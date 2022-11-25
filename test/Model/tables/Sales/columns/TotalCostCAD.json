@@ -1,0 +1,18 @@
+{
+  "type": "calculated",
+  "name": "TotalCostCAD",
+  "dataType": "decimal",
+  "isDataTypeInferred": true,
+  "formatString": "\\$#,0.###############;-\\$#,0.###############;\\$#,0.###############",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-CA\"}"
+    }
+  ]
+}

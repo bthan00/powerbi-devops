@@ -1,0 +1,14 @@
+{
+  "name": "Channel",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "Channel",
+  "formatString": "0",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

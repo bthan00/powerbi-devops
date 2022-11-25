@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Calendar'[DateKey])), 1, 1), Date(Year(MAX('Calendar'[DateKey])), 12, 31))

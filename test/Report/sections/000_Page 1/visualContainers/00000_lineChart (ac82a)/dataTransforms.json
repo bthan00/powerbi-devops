@@ -1,0 +1,124 @@
+{
+  "projectionOrdering": {
+    "Y": [
+      1
+    ],
+    "Category": [
+      0
+    ]
+  },
+  "projectionActiveItems": {
+    "Category": [
+      {
+        "queryRef": "Calendar.MonthOfYear",
+        "suppressConcat": false
+      }
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "MonthOfYear",
+        "Name": "Calendar.MonthOfYear",
+        "Type": 3,
+        "Format": "0"
+      },
+      {
+        "Restatement": "Revenue",
+        "Name": "Sales.Revenue",
+        "Type": 1,
+        "Format": "\\$#,0.###############;-\\$#,0.###############;\\$#,0.###############"
+      }
+    ],
+    "Filters": [
+      {
+        "type": 2,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Calendar"
+              }
+            },
+            "Property": "MonthOfYear"
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Sales"
+              }
+            },
+            "Property": "Revenue"
+          }
+        }
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Y",
+          "Projection": 1,
+          "isActive": false
+        },
+        {
+          "Name": "Category",
+          "Projection": 0,
+          "isActive": true
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "MonthOfYear",
+      "format": "0",
+      "queryName": "Calendar.MonthOfYear",
+      "roles": {
+        "Category": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 260
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "Calendar"
+            }
+          },
+          "Property": "MonthOfYear"
+        }
+      }
+    },
+    {
+      "displayName": "Revenue",
+      "format": "\\$#,0.###############;-\\$#,0.###############;\\$#,0.###############",
+      "queryName": "Sales.Revenue",
+      "roles": {
+        "Y": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 258
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "Sales"
+            }
+          },
+          "Property": "Revenue"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "BrandName",
+  "dataType": "string",
+  "sourceColumn": "BrandName",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "ac82a3d03a4e257a8063",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 10,
+        "y": 425,
+        "width": 654,
+        "height": 295,
+        "z": 1
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "lineChart",
+    "projections": {
+      "Y": [
+        {
+          "queryRef": "Sales.Revenue"
+        }
+      ],
+      "Category": [
+        {
+          "queryRef": "Calendar.MonthOfYear",
+          "active": true
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "c",
+          "Entity": "Calendar",
+          "Type": 0
+        },
+        {
+          "Name": "s",
+          "Entity": "Sales",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "c"
+              }
+            },
+            "Property": "MonthOfYear"
+          },
+          "Name": "Calendar.MonthOfYear"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Revenue"
+          },
+          "Name": "Sales.Revenue"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "s"
+                }
+              },
+              "Property": "Revenue"
+            }
+          }
+        }
+      ]
+    },
+    "hasDefaultSort": true
+  }
+}

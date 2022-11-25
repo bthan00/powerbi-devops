@@ -1,0 +1,17 @@
+{
+  "name": "GeographyKey",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "GeographyKey",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

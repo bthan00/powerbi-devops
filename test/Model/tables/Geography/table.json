@@ -1,0 +1,22 @@
+{
+  "name": "Geography",
+  "partitions": [
+    {
+      "name": "Geography-58d372dd-b829-4a56-ab9b-7254792b8d12",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "ColumnsMetadata",
+      "value": "{\"Columns\":[{\"Name\":\"GeographyKey\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimGeography.{GeographyKey,0}\"},{\"Name\":\"GeographyType\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimGeography.{GeographyType,1}\"},{\"Name\":\"ContinentName\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimGeography.{ContinentName,2}\"},{\"Name\":\"RegionCountryName\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimGeography.{RegionCountryName,3}\"}]}"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

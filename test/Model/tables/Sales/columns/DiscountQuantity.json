@@ -1,0 +1,13 @@
+{
+  "name": "DiscountQuantity",
+  "dataType": "int64",
+  "sourceColumn": "DiscountQuantity",
+  "formatString": "0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

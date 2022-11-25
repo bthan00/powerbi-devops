@@ -1,0 +1,12 @@
+{
+  "name": "CloseReason",
+  "dataType": "string",
+  "sourceColumn": "CloseReason",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

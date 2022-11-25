@@ -1,0 +1,22 @@
+{
+  "name": "Stores",
+  "partitions": [
+    {
+      "name": "Stores-9adb2fe5-82cc-4247-9cbf-199daa1f6820",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "ColumnsMetadata",
+      "value": "{\"Columns\":[{\"Name\":\"StoreKey\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimStores.{StoreKey,0}\"},{\"Name\":\"GeographyKey\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimStores.{GeographyKey,1}\"},{\"Name\":\"StoreType\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimStores.{StoreType,3}\"},{\"Name\":\"StoreName\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimStores.{StoreName,4}\"},{\"Name\":\"Status\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimStores.{Status,6}\"},{\"Name\":\"CloseReason\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimStores.{CloseReason,16}\"},{\"Name\":\"EmployeeCount\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimStores.{EmployeeCount,17}\"},{\"Name\":\"SellingAreaSize\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimStores.{SellingAreaSize,18}\"}]}"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "name": "ccafa4e53997ecf295ab",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 10.078740157480315,
+        "y": 20.655737704918032,
+        "z": 0,
+        "width": 653.85826771653547,
+        "height": 393.93442622950818
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "lineChart",
+    "projections": {
+      "Category": [
+        {
+          "queryRef": "Calendar.Year",
+          "active": true
+        }
+      ],
+      "Y": [
+        {
+          "queryRef": "Sum(Sales.SalesQuantity)"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "c",
+          "Entity": "Calendar",
+          "Type": 0
+        },
+        {
+          "Name": "s",
+          "Entity": "Sales",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "c"
+              }
+            },
+            "Property": "Year"
+          },
+          "Name": "Calendar.Year"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "SalesQuantity"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(Sales.SalesQuantity)"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "s"
+                    }
+                  },
+                  "Property": "SalesQuantity"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    },
+    "hasDefaultSort": true
+  }
+}

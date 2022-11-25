@@ -1,0 +1,22 @@
+{
+  "name": "Channel",
+  "partitions": [
+    {
+      "name": "Channel-3836f8fd-e2fe-46b4-9aa4-9956499fe1dc",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "ColumnsMetadata",
+      "value": "{\"Columns\":[{\"Name\":\"Channel\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimChannel.{ChannelKey,0}\"},{\"Name\":\"ChannelName\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimChannel.{ChannelName,2}\"}]}"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

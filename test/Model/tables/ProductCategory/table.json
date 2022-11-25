@@ -1,0 +1,22 @@
+{
+  "name": "ProductCategory",
+  "partitions": [
+    {
+      "name": "ProductCategory-b82a23c6-fdce-4a34-a948-36a3255c445c",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "ColumnsMetadata",
+      "value": "{\"Columns\":[{\"Name\":\"ProductCategoryKey\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimProductCategory.{ProductCategoryKey,0}\"},{\"Name\":\"ProductCategory\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimProductCategory.{ProductCategoryName,2}\"}]}"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

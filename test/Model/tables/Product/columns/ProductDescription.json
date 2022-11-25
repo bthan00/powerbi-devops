@@ -1,0 +1,12 @@
+{
+  "name": "ProductDescription",
+  "dataType": "string",
+  "sourceColumn": "ProductDescription",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

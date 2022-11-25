@@ -1,0 +1,120 @@
+{
+  "name": "test",
+  "compatibilityLevel": 1550,
+  "model": {
+    "culture": "en-US",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "relationships": [
+      {
+        "name": "4f81913b-9717-434b-944d-0fe871897062",
+        "fromTable": "Sales",
+        "fromColumn": "PromotionKey",
+        "toTable": "Promotion",
+        "toColumn": "PromotionKey",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "d219834a-6b75-4cb0-9090-71ed9a06b8f1",
+        "fromTable": "Stores",
+        "fromColumn": "GeographyKey",
+        "toTable": "Geography",
+        "toColumn": "GeographyKey",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "7b03cb88-7ab8-46af-814c-22aa8eceecf5",
+        "fromTable": "ProductSubcategory",
+        "fromColumn": "ProductCategoryKey",
+        "toTable": "ProductCategory",
+        "toColumn": "ProductCategoryKey",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "bd936648-662f-4438-8a8c-e746b530d8ea",
+        "fromTable": "Sales",
+        "fromColumn": "channelKey",
+        "toTable": "Channel",
+        "toColumn": "Channel",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "51df2141-24dd-4ef8-8dd1-bf65764161e7",
+        "fromTable": "Sales",
+        "fromColumn": "ProductKey",
+        "toTable": "Product",
+        "toColumn": "ProductKey",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "7656b2ab-bac3-4fef-9ded-3aaf77d08a40",
+        "fromTable": "Product",
+        "fromColumn": "ProductSubcategoryKey",
+        "toTable": "ProductSubcategory",
+        "toColumn": "ProductSubcategoryKey",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "bd4c3275-3b43-4e3e-a58c-45aff42a0511",
+        "fromTable": "Sales",
+        "fromColumn": "StoreKey",
+        "toTable": "Stores",
+        "toColumn": "StoreKey",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "15c0abd7-713b-4e84-a222-926926de07e4",
+        "fromTable": "Sales",
+        "fromColumn": "DateKey",
+        "toTable": "Calendar",
+        "toColumn": "DateKey"
+      },
+      {
+        "name": "f5d13ddb-38e4-4c09-8925-c001a26c604d",
+        "fromTable": "Promotion",
+        "fromColumn": "StartDate",
+        "toTable": "LocalDateTable_6c9c2fcb-d3ba-476c-8f33-99115fa863a1",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "89354e3a-cf51-4113-8ca2-cd304edcec9a",
+        "fromTable": "Promotion",
+        "fromColumn": "EndDate",
+        "toTable": "LocalDateTable_677c2dd6-f28f-4b4b-b2ad-1ebdc5f43e40",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "25fe31da-93a8-4b1b-949c-1a921df75987",
+        "fromTable": "Calendar",
+        "fromColumn": "DateKey",
+        "toTable": "LocalDateTable_f70ecd7c-7090-4af6-80e5-58be8ac9b239",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.108.997.0 (22.08)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Channel\",\"Sales\",\"Stores\",\"Promotion\",\"ProductSubcategory\",\"ProductCategory\",\"Product\",\"Geography\",\"Calendar\"]"
+      },
+      {
+        "name": "__TEdtr",
+        "value": "1"
+      }
+    ]
+  }
+}

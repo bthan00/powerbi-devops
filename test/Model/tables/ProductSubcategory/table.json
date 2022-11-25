@@ -1,0 +1,22 @@
+{
+  "name": "ProductSubcategory",
+  "partitions": [
+    {
+      "name": "ProductSubcategory-aa5c8a99-d0a5-480c-bacf-c3b1c9950bbc",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "ColumnsMetadata",
+      "value": "{\"Columns\":[{\"Name\":\"ProductSubcategoryKey\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimProductSubcategory.{ProductSubcategoryKey,0}\"},{\"Name\":\"ProductSubcategory\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimProductSubcategory.{ProductSubcategoryName,2}\"},{\"Name\":\"ProductCategoryKey\",\"Id\":\"Server.Database\\\\/1/File/c:\\\\\\\\users\\\\\\\\owend\\\\\\\\documents\\\\\\\\contososalesv31_64bit.accdb//DimProductSubcategory.{ProductCategoryKey,4}\"}]}"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

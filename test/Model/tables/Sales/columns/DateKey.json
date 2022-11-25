@@ -1,0 +1,14 @@
+{
+  "name": "DateKey",
+  "dataType": "dateTime",
+  "isHidden": true,
+  "sourceColumn": "DateKey",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

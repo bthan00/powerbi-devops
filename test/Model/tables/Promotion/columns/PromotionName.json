@@ -1,0 +1,12 @@
+{
+  "name": "PromotionName",
+  "dataType": "string",
+  "sourceColumn": "PromotionName",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}
