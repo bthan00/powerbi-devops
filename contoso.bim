@@ -316,6 +316,26 @@
                 "value": "{\"currencyCulture\":\"en-US\"}"
               }
             ]
+          },
+          {
+            "type": "calculated",
+            "name": "TotalCostCAD",
+            "dataType": "decimal",
+            "isDataTypeInferred": true,
+            "expression": "1.34*(Sales[TotalCost])",
+            "formatString": "\\$#,0.###############;-\\$#,0.###############;\\$#,0.###############",
+            "lineageTag": "0528c784-07f3-4288-a7af-01841fda1534",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-CA\"}"
+              }
+            ]
           }
         ],
         "partitions": [
@@ -333,6 +353,20 @@
                 "    #\"Removed Columns\""
               ]
             }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Revenue",
+            "expression": "SUM(Sales[TotalCostCAD])",
+            "formatString": "\\$#,0.###############;-\\$#,0.###############;\\$#,0.###############",
+            "lineageTag": "1a639137-743f-4d27-bec4-37352fd6296e",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-CA\"}"
+              }
+            ]
           }
         ],
         "annotations": [
